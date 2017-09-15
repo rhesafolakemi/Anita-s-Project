@@ -1,0 +1,78 @@
+.Header {
+  background-image: url(../images/backgrounds/landing.jpg);
+  text-align: center;
+  font-style: normal;
+  font-size: 24;
+}
+
+.col-md-3 {
+  padding: 0px;
+  margin-top: 0px
+
+}
+
+#hh {
+  background-color: white;
+  text-align: center;
+  color: black;
+  padding-bottom: 90px
+}
+
+#pt {
+  background-color: orange;
+  text-align: center;
+  color: white;
+  padding-top: 80px;
+}
+
+#bF {
+  background-image: url(../images/foodtop/breakfast.jpg);
+  text-align: center;
+  color: white;
+  padding: 100px;
+}
+
+#lh {
+  background-image: url(../images/foodtop/lunch.jpg);
+  text-align: center;
+  color: white;
+  padding: 100px;
+}
+
+#dnn {
+  background-image: url(../images/foodtop/dinner.jpg);
+  text-align: center;
+  color: white;
+  padding: 100px;
+}
+
+.horizlist {
+  display: block;
+  float:left;
+  height: 30px;
+  width: 290px;
+}
+
+.fastFood {
+  float: left;
+  width: 50px;
+  padding-right: 40px;
+}
+
+.delicious {
+  float: right;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.water {
+  float: right;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.drink {
+  float: right;
+  text-align: left;
+  padding-left: 20px;
+}
