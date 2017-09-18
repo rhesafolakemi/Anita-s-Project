@@ -2,20 +2,24 @@
   background-image: url(../images/backgrounds/landing.jpg);
   text-align: center;
   font-style: normal;
-  font-size: 24;
+  font-size: 26px;
+  padding: 100px;
+  color: white;
 }
 
 .col-md-3 {
+  padding-top: 0px;
+  margin-top: 0px;
+  padding-left: 0px;
   padding: 0px;
-  margin-top: 0px
-
+  margin: 0px;
 }
 
 #hh {
   background-color: white;
   text-align: center;
   color: black;
-  padding-bottom: 90px
+  padding-bottom: 80px
 }
 
 #pt {
@@ -30,6 +34,8 @@
   text-align: center;
   color: white;
   padding: 100px;
+  margin: 0px;
+
 }
 
 #lh {
@@ -37,6 +43,8 @@
   text-align: center;
   color: white;
   padding: 100px;
+  margin-top: 0px;
+
 }
 
 #dnn {
@@ -44,35 +52,145 @@
   text-align: center;
   color: white;
   padding: 100px;
+  margin-top: 0px;
 }
 
 .horizlist {
   display: block;
-  float:left;
-  height: 30px;
-  width: 290px;
+  height: 380px;
+  width: 380px;
+  margin-top: 0px;
 }
 
 .fastFood {
   float: left;
   width: 50px;
   padding-right: 40px;
+  margin-left: 200px;
+}
+
+#box {
+  box-shadow: 5px 5px 5px  #d8d6d6;
+  width: 380px;
+  height: 380px;
+  border: 1px;
 }
 
 .delicious {
   float: right;
   text-align: left;
-  padding-left: 20px;
+  padding-left: 50px;
+  margin-right: 200px;
 }
 
 .water {
   float: right;
   text-align: left;
   padding-left: 20px;
+  margin-right: 200px;
+}
+
+#shadow {
+  box-shadow: 5px 5px 5px  #d8d6d6;
+  width: 380px;
+  height: 380px;
+  border: 1px;
 }
 
 .drink {
   float: right;
-  text-align: left;
+  text-align: right;
   padding-left: 20px;
+  margin-left: 200px;
+}
+
+.gallerybtn {
+  color: orange;
+  text-align: left;
+  border-color: orange;
+}
+
+.gallarybtn {
+  color: orange;
+  text-align: right;
+  border-color: orange;
+}
+
+.about {
+  padding: 15px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+  margin: 80px;
+}
+
+.tomato {
+  background-image: url(../images/backgrounds/subscribe.jpg);
+  text-align: center;
+  color: #f4f4f4;
+  font-size: 24px;
+  padding: 100px;
+}
+
+#burger {
+  text-align: center;
+  background-image: url(../images/backgrounds/foodsBg.jpg);
+  padding: 100px;
+  color: white;
+}
+
+.emailbtn {
+  width: 280px;
+  opacity: 0.5;
+  text-align: left;
+}
+
+.subsbtn {
+  width: 180px;
+  color: #fcf9f9;
+}
+
+.footer {
+  position: absolute;
+  width: 100%;
+  height: 300px;
+  background-color: #fc5c11;
+  text-align: center;
+  padding: 50px;
+}
+
+.color {
+  color: white;
+  font-size: 18px;
+  font-style: normal;
+}
+
+.social-media-color {
+  color: #ffffff;
+}
+
+.social-media-color {
+    font-size: 24px;
+    padding: 10px
+}
+
+
+.pc {
+  background-image: url(../images/backgrounds/foodsBg.jpg);
+  padding: 300px;
+  height: 480px;
+  text-align: center;
+  color: white;
+}
+
+
+.panel.with-nav-tabs .panel-heading{
+    padding: 50px 50px 50px 50px;
+
+
+}
+.panel.with-nav-tabs .nav-tabs{
+	border-bottom: none;
+  color: white;
+}
+.panel.with-nav-tabs .nav-justified{
+	margin-bottom: -1px;
 }
