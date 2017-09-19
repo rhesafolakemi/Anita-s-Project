@@ -3,7 +3,7 @@
   text-align: center;
   font-style: normal;
   font-size: 26px;
-  padding: 100px;
+  padding: 150px;
   color: white;
 }
 
@@ -19,14 +19,18 @@
   background-color: white;
   text-align: center;
   color: black;
-  padding-bottom: 80px
+
+  padding: 45px;
+  cursor: pointer;
 }
 
 #pt {
   background-color: orange;
   text-align: center;
   color: white;
-  padding-top: 80px;
+
+  padding: 40px;
+  cursor: pointer;
 }
 
 #bF {
@@ -35,7 +39,8 @@
   color: white;
   padding: 100px;
   margin: 0px;
-
+  cursor: pointer;
+  background-size: cover;
 }
 
 #lh {
@@ -44,7 +49,8 @@
   color: white;
   padding: 100px;
   margin-top: 0px;
-
+  background-size: cover;
+  cursor: pointer;
 }
 
 #dnn {
@@ -53,6 +59,8 @@
   color: white;
   padding: 100px;
   margin-top: 0px;
+  background-size: cover;
+  cursor: pointer;
 }
 
 .horizlist {
@@ -133,8 +141,52 @@
 #burger {
   text-align: center;
   background-image: url(../images/backgrounds/foodsBg.jpg);
-  padding: 100px;
+  padding: 50px;
   color: white;
+  padding-bottom: 50px;
+  margin-top: 0px;
+}
+
+.optionbackground {
+  background-color: white;
+  margin: 5% 5% 5% 5%;
+  text-align: center;
+}
+
+.optionbackground .col-md-3 {
+  background-color: #E3E3E3;
+  color: #AEAEAE;
+  padding: 0;
+  border-right: 1px solid #bbb;
+  border-bottom: 1px solid #bbb;
+}
+
+.optionbackground .active {
+  background-color: white;
+  color: #F15B29;
+  border-bottom: none;
+}
+
+.optionbackground .col-md-3 :hover:not(.active) {
+  background-color: white;
+  cursor: pointer;
+}
+
+.optionbackground h3 {
+  font-weight: bold;
+  margin: 0;
+  padding: 5% 0 5% 0;
+}
+
+.optionbackground p {
+  font-size: 120%;
+  color: #F15B29;
+  padding-top: 5px;
+}
+
+.optionbackground .col-md-4 {
+  padding: 4% 0% 2% 0%;
+  padding-left: -10;
 }
 
 .emailbtn {
@@ -181,10 +233,34 @@
   color: white;
 }
 
+.part7 {
+  background-color: #F15B29;
+  height: 350px;
+  text-align: center;
+  color: white;
+}
+
+.part7 .container {
+  width: 50%;
+  padding: 2% 0 0 0;
+}
+
+.part7 .container h2 {
+  margin-bottom: 2%;
+  font-size: 200%;
+}
+
+.part7 .container h4 {
+  margin-bottom: 3%;
+  font-size: 150%;
+}
+
+.part7 .container .part7img {
+  margin: 0% 2% 10% 2%;
+}
 
 .panel.with-nav-tabs .panel-heading{
     padding: 50px 50px 50px 50px;
-
 
 }
 .panel.with-nav-tabs .nav-tabs{
