@@ -1,8 +1,7 @@
-  // $(document).ready(function() {
-  //   var sideslider = $('[data-toggle=collapse-side]');
-  //   var sel = sideslider.attr('data-target');
-  //   var sel2 = sideslider.attr('data-target-2');
-  //   sideslider.click(function(event){
-  //     $(sel).toggleClass('in')
-  //     $(sel).toggleClass('out')
-  //   })
+  function openNav() {
+      document.getElementById("myNav").style.width = "100%";
+  }
+
+  function closeNav() {
+      document.getElementById("myNav").style.width = "0%";
+  }
