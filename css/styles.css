@@ -1,10 +1,12 @@
 .Header {
   background-image: url(../images/backgrounds/landing.jpg);
+  height: 636px;
   text-align: center;
   font-style: normal;
   font-size: 26px;
   padding: 150px;
   color: white;
+  margin: 0px;
 }
 
 .col-md-3 {
@@ -19,17 +21,15 @@
   background-color: white;
   text-align: center;
   color: black;
-
-  padding: 45px;
+  padding: 40px;
   cursor: pointer;
 }
 
 #pt {
-  background-color: orange;
+  background-color: #F15B29;
   text-align: center;
   color: white;
-
-  padding: 40px;
+  padding: 45px;
   cursor: pointer;
 }
 
@@ -132,19 +132,19 @@
 
 .tomato {
   background-image: url(../images/backgrounds/subscribe.jpg);
+  height: 301px;
   text-align: center;
   color: #f4f4f4;
   font-size: 24px;
-  padding: 100px;
+  padding: 120px;
 }
 
 #burger {
   text-align: center;
   background-image: url(../images/backgrounds/foodsBg.jpg);
+  height: 599px;
   padding: 50px;
   color: white;
-  padding-bottom: 50px;
-  margin-top: 0px;
 }
 
 .optionbackground {
@@ -170,6 +170,7 @@
 .optionbackground .col-md-3 :hover:not(.active) {
   background-color: white;
   cursor: pointer;
+
 }
 
 .optionbackground h3 {
@@ -185,52 +186,64 @@
 }
 
 .optionbackground .col-md-4 {
-  padding: 4% 0% 2% 0%;
-  padding-left: -10;
+  padding: 5% 10% 5% 10%;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 0px;
+}
+
+#leftarrow {
+  padding-left: 10px;
+}
+
+#rightarrow {
+  padding-right: 10px;
+}
+
+#chicken {
+  padding: 5px;
+  padding-left: 50px;
+  margin: 0px;
+  padding-right: 5px;
+}
+
+#beef {
+  padding: 5px;
+  padding-left: 5px;
+  margin: 0px;
+  padding-right: 5px;
+}
+
+#pizza {
+  padding: 5px;
+  padding-left: 5px;
+  margin: 0px;
+  padding-right: 50px;
+}
+
+#customers {
+  border-right: 1px solid;
+  border-color: #e8e5e5;
+}
+
+#headcolor {
+  color: #F15B29;
+}
+
+#menucolor {
+  color: #F15B29;
 }
 
 .emailbtn {
   width: 280px;
-  opacity: 0.5;
+  opacity: 0.3;
   text-align: left;
 }
 
 .subsbtn {
   width: 180px;
-  color: #fcf9f9;
-}
-
-.footer {
-  position: absolute;
-  width: 100%;
-  height: 300px;
-  background-color: #fc5c11;
-  text-align: center;
-  padding: 50px;
-}
-
-.color {
-  color: white;
-  font-size: 18px;
-  font-style: normal;
-}
-
-.social-media-color {
-  color: #ffffff;
-}
-
-.social-media-color {
-    font-size: 24px;
-    padding: 10px
-}
-
-
-.pc {
-  background-image: url(../images/backgrounds/foodsBg.jpg);
-  padding: 300px;
-  height: 480px;
-  text-align: center;
-  color: white;
+  border-color: #F15B29;
+  background-color: #F15B29;
 }
 
 .part7 {
@@ -255,18 +268,45 @@
   font-size: 150%;
 }
 
-.part7 .container .part7img {
-  margin: 0% 2% 10% 2%;
+#footer {
+  padding-right: 10px;
 }
 
-.panel.with-nav-tabs .panel-heading{
-    padding: 50px 50px 50px 50px;
+#part71img {
+  background-image: url(../images/footerlogos/facebook.png);
+  background-repeat: no-repeat;
+  padding: 20px;
+  margin: 2px 2px 2px 2px;
+}
 
+#part72img {
+  background-image: url(../images/footerlogos/twitter.png);
+  background-repeat: no-repeat;
+  padding: 20px;
+  margin: 2px 2px 2px 2px;
 }
-.panel.with-nav-tabs .nav-tabs{
-	border-bottom: none;
-  color: white;
+
+#part73img {
+  background-image: url(../images/footerlogos/pinterest.png);
+  background-repeat: no-repeat;
+  padding: 20px;
+  margin: 2px 2px 2px 2px;
 }
-.panel.with-nav-tabs .nav-justified{
-	margin-bottom: -1px;
+
+.fb {
+  text-align: center;
+  padding: 50px;
+  margin: 2px 2px 2px 2px;
+}
+
+.tw {
+  text-align: center;
+  padding: 50px;
+  margin: 2px 2px 2px 2px;
+}
+
+.pin {
+  text-align: center;
+  padding: 50px;
+  margin: 2px 2px 2px 2px;
 }
