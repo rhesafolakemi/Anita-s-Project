@@ -17,7 +17,8 @@
 
 body {
     margin: 0;
-    font-family: 'Arvo', sans-serif;
+    font-family: 'Roboto+Slab', sans-serif;
+    font-size: 14px;
 }
 
 .overlay {
@@ -152,6 +153,7 @@ body {
   margin-right: 200px;
 }
 
+
 .water {
   float: right;
   text-align: left;
@@ -174,15 +176,15 @@ body {
 }
 
 .gallerybtn {
-  color: orange;
+  color: #F15B29;
   text-align: left;
-  border-color: orange;
+  border-color: #F15B29;
 }
 
 .gallarybtn {
-  color: orange;
+  color: #F15B29;
   text-align: right;
-  border-color: orange;
+  border-color: #F15B29;
 }
 
 .about {
@@ -356,18 +358,19 @@ body {
 
 .fb {
   text-align: center;
-  padding: 50px;
+  padding: 100px;
   margin: 2px 2px 2px 2px;
 }
 
 .tw {
   text-align: center;
-  padding: 50px;
+  padding: 100px;
   margin: 2px 2px 2px 2px;
 }
 
 .pin {
   text-align: center;
-  padding: 50px;
+  padding: 100px;
   margin: 2px 2px 2px 2px;
+  object-position: center;
 }
