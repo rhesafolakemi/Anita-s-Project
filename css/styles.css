@@ -95,6 +95,12 @@ body {
   cursor: pointer;
 }
 
+.img:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  color: black;
+}
+
 #bF {
   background-image: url(../images/foodtop/breakfast.jpg);
   text-align: center;
